@@ -19,7 +19,7 @@ export default function Hero() {
                   params={{
                     particles: {
                       number: {
-                        value: 15,
+                        value: 30,
                         density: {
                           enable: true,
                           value_area: 800,
@@ -29,34 +29,34 @@ export default function Hero() {
                         enable: true,
                       },
                       move: {
-                        speed: 1,
+                        speed: 3,
                         out_mode: "out",
                       },
                       shape: {
                         type: ["images"],
                         images: [
                           {
-                            src: "/img/topics/angular-icon-1.svg",
+                            src: "/img/c++.png",
                             height: 20,
                             width: 23,
                           },
                           {
-                            src: "/img/topics/aspnet-core.png",
+                            src: "/img/python.png",
                             height: 20,
                             width: 20,
                           },
                           {
-                            src: "/img/topics/dot-net-core-7.svg",
+                            src: "/img/deep-learning.png",
                             height: 20,
                             width: 20,
                           },
                           {
-                            src: "/img/topics/flutter.svg",
+                            src: "/img/numpy.png",
                             height: 20,
                             width: 20,
                           },
                           {
-                            src: "/img/topics/gatsby.svg",
+                            src: "/img/machine-learning.png",
                             height: 20,
                             width: 20,
                           },
@@ -66,22 +66,12 @@ export default function Hero() {
                             width: 20,
                           },
                           {
-                            src: "/img/topics/gitlab.svg",
-                            height: 20,
-                            width: 20,
-                          },
-                          {
-                            src: "/img/topics/k8s.svg",
-                            height: 20,
-                            width: 20,
-                          },
-                          {
                             src: "/img/site/particles/javascript.png",
                             height: 20,
                             width: 20,
                           },
                           {
-                            src: "/img/site/particles/microsoft-azure-3.png",
+                            src: "/img/AI.png",
                             height: 20,
                             width: 20,
                           },
@@ -91,27 +81,32 @@ export default function Hero() {
                             width: 20,
                           },
                           {
-                            src: "/img/topics/nuxt-emoji.png",
-                            height: 20,
-                            width: 23,
-                          },
-                          {
-                            src: "/img/topics/oauth.svg",
+                            src: "/img/tensorflow.png",
                             height: 20,
                             width: 20,
                           },
                           {
-                            src: "/img/topics/react.svg",
-                            height: 20,
-                            width: 23,
-                          },
-                          {
-                            src: "/img/site/particles/code.png",
+                            src: "/img/numba.png",
                             height: 20,
                             width: 20,
                           },
                           {
-                            src: "/img/topics/vue-9.png",
+                            src: "/img/pytorch.png",
+                            height: 20,
+                            width: 20,
+                          },
+                          {
+                            src: "/img/php.svg",
+                            height: 20,
+                            width: 40,
+                          },
+                          {
+                            src: "/img/mysql.svg",
+                            height: 20,
+                            width: 40,
+                          },
+                          {
+                            src: "/img/redis.svg",
                             height: 20,
                             width: 20,
                           },
@@ -147,7 +142,7 @@ export default function Hero() {
                       <figure className="image">
                         <img
                           className="is-rounded hero-avatar u-photo"
-                          src="https://www.abhith.net/img/abhith.jpg"
+                          src="/img/jason.jpg"
                           alt=""
                         />
                       </figure>
@@ -170,7 +165,7 @@ export default function Hero() {
                     <div className="column is-7">
                       <figure className="image">
                         <a
-                          href="https://www.abhith.net"
+                          href="https://www.aiartiste.com"
                           className="u-url u-uid"
                         >
                           <PreviewCompatibleImage

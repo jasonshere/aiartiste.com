@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Full Stack Developer
+title: AI Researcher
 image: /img/site/mindmap.png
-heading: Abhith Rajan
+heading: Jason Li
 subheading: >-
-  Abhith Rajan is an aspiring software engineer with more than 7 years of experience and proven successful track record of delivering technology-based products and services.
+  Hi, I'm Jason. Currently an Ph.D. Candidate in Computer Science at RMIT. I'm committed to the research of recommender system algorithms. 
 ---

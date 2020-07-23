@@ -23,7 +23,7 @@ const ArticleShare = ({ article, location }) => {
           className="button"
           title={article.title}
           //   TODO: make dynamic
-          via="AbhithRajan"
+          via="JasonLi45756873"
           hashtags={article.tags}
         >
           <TwitterIcon size={48} round={true} />

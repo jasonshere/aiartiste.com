@@ -50,7 +50,7 @@ export const ContactPageTemplate = ({
                   ></textarea>
                 </div>
                 <div className="block">
-                  <Recaptcha sitekey="6Ldl1v0UAAAAADH7egN2bhDoyLhv5k6hj3H4y2cM" />
+                  <Recaptcha sitekey="6LeLB7UZAAAAAASl38BIWys6BayZC0ihNQQMFjK5" />
                 </div>
                 <button className="button k-button k-primary raised has-gradient">
                   Send

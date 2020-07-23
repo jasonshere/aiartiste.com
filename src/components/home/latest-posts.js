@@ -14,15 +14,22 @@ function LatestPosts() {
         const latestArticles = data.latestArticles.edges.map(
           normalize.local.articles
         );
-
+        
         const lastUpdatedPosts = data.lastUpdatedPosts.edges.map(
           normalize.local.articles
         );
 
         //* In order to skip the latest posts repeating in last updated one, we are fetching last four updated posts and selecting the one which is not in the latest posts.
-        const lastUpdatedPost = lastUpdatedPosts.find((u) =>
-          latestArticles.every((a) => a.id !== u.id)
-        );
+        
+        let lup;
+        if (lastUpdatedPosts.edges) {
+          const lastUpdatedPost = lastUpdatedPosts.find((u) =>
+            latestArticles.every((a) => a.id !== u.id)
+          );
+          lup = <BlogCard post={lastUpdatedPost} tag={`Recently Updated`}></BlogCard>;
+        } else {
+          lup = '';
+        }
 
         return (
           <section className="section ar-latest">
@@ -34,10 +41,7 @@ function LatestPosts() {
                     return <BlogRollItem post={node} key={node.slug} />;
                   })}
                 </div>
-                <BlogCard
-                  post={lastUpdatedPost}
-                  tag={`Recently Updated`}
-                ></BlogCard>
+                {lup}
               </div>
               <Button
                 text={`View All ${totalArticlesCount} Articles`}

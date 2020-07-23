@@ -23,16 +23,16 @@ function Footer() {
           <div className="column is-5 is-4-widescreen">
             <div className="summary">
               <Link to="/" className="brand">
-                <div className="brand-icon">
+                {/* <div className="brand-icon">
                   <img
-                    alt="Abhith Rajan"
+                    alt="Jason Li"
                     role="presentation"
                     src="/img/site/brand/icon.png"
                   />
-                </div>
+                </div> */}
                 <div className="brand-content">
-                  <div className="brand-title"> Abhith Rajan </div>
-                  <div className="brand-subtitle">Full Stack Dev</div>
+                  <div className="brand-title">Jason Li </div>
+                  <div className="brand-subtitle">AI Researcher</div>
                 </div>
               </Link>
               <hr className="spacer"></hr>
@@ -89,7 +89,7 @@ function Footer() {
                     <li>
                       <OutboundLink
                         target="_blank"
-                        href={`https://www.linkedin.com/in/abhith`}
+                        href={`https://www.linkedin.com/in/jie-jason-li-4a1003146/`}
                       >
                         <img
                           role="presentation"
@@ -99,7 +99,7 @@ function Footer() {
                         LinkedIn
                       </OutboundLink>
                     </li>
-                    <li>
+                    {/* <li>
                       <OutboundLink
                         target="_blank"
                         href={`https://gitlab.com/abhith`}
@@ -111,8 +111,8 @@ function Footer() {
                         />{" "}
                         GitLab
                       </OutboundLink>
-                    </li>
-                    <li className="has-margin">
+                    </li> */}
+                    {/* <li className="has-margin">
                       <a
                         className="twitter-follow-button"
                         href="https://twitter.com/abhithrajan"
@@ -121,28 +121,28 @@ function Footer() {
                       >
                         Follow @AbhithRajan
                       </a>
-                    </li>
+                    </li> */}
                     <li className="has-margin">
                       <GitHubButton
-                        href="https://github.com/Abhith"
+                        href="https://github.com/jasonshere"
                         data-size="large"
                         data-show-count="true"
-                        aria-label="Follow @Abhith on GitHub"
+                        aria-label="Follow @Jason on GitHub"
                       >
-                        Follow @Abhith
+                        Follow @Jason
                       </GitHubButton>
                     </li>
-                    <li className="has-margin">
+                    {/* <li className="has-margin">
                       <GitHubButton
-                        href="https://github.com/Abhith/abhith.net"
+                        href="https://github.com/jasonshere"
                         data-icon="octicon-star"
                         data-size="large"
                         data-show-count="true"
-                        aria-label="Star Abhith/abhith.net on GitHub"
+                        aria-label="Star Jason on GitHub"
                       >
                         Star
                       </GitHubButton>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

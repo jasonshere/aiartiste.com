@@ -18,23 +18,23 @@ export default React.memo(
       {
         "@context": "http://schema.org",
         "@type": "Organization",
-        "@id": "https://wwww.abhith.net#organization",
-        name: "Abhith Rajan",
-        url: "https://wwww.abhith.net",
-        sameAs: ["https://twitter.com/abhithrajan"],
-        legalName: "Abhith Rajan",
+        "@id": "https://wwww.aiartiste.com#organization",
+        name: "Jason Li",
+        url: "https://wwww.aiartiste.com",
+        sameAs: ["https://twitter.com/JasonLi45756873"],
+        legalName: "Jie Li",
         logo: {
           "@type": "ImageObject",
-          url: "https://wwww.abhith.net/img/android-chrome-144x144.png",
+          url: "https://wwww.aiartiste.com/img/android-chrome-144x144.png",
           width: 144,
           height: 144
         },
         founder: {
           "@type": "Person",
-          name: "Abhith Rajan",
+          name: "Jason Li",
           image: {
             "@type": "ImageObject",
-            url: "https://www.abhith.net/img/abhith.jpg",
+            url: "https://wwww.aiartiste.com/img/abhith.jpg",
             width: 300,
             height: 300
           }
@@ -43,12 +43,12 @@ export default React.memo(
       {
         "@context": "http://schema.org",
         "@type": "WebSite",
-        "@id": "https://wwww.abhith.net#website",
-        url: "https://wwww.abhith.net",
-        name: "Abhith Rajan",
-        alternateName: "Full Stack Developer | Abhith Rajan",
+        "@id": "https://wwww.aiartiste.com#website",
+        url: "https://wwww.aiartiste.com",
+        name: "Jason Li",
+        alternateName: "AI Researcher | Jason Li",
         author: {
-          "@id": "https://wwww.abhith.net#organization"
+          "@id": "https://wwww.aiartiste.com#organization"
         }
       },
       {
@@ -59,10 +59,10 @@ export default React.memo(
         headline: title,
         description,
         publisher: {
-          "@id": "https://wwww.abhith.net#organization"
+          "@id": "https://wwww.aiartiste.com#organization"
         },
         sourceOrganization: {
-          "@id": "https://wwww.abhith.net#organization"
+          "@id": "https://wwww.aiartiste.com#organization"
         }
       }
     ];
@@ -97,10 +97,10 @@ export default React.memo(
             },
             description,
             author: {
-              "@id": "https://wwww.abhith.net#organization"
+              "@id": "https://wwww.aiartiste.com#organization"
             },
             publisher: {
-              "@id": "https://wwww.abhith.net#organization"
+              "@id": "https://wwww.aiartiste.com#organization"
             },
             mainEntityOfPage: {
               "@type": "WebSite",

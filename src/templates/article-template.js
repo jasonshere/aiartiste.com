@@ -48,7 +48,7 @@ export default ({ pageContext, data, location }) => {
           <h5>
             👊 that ⭐️ button on the official{" "}
             <a
-              href="https://github.com/Abhith/abhith.net"
+              href="https://github.com/jasonshere"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -129,7 +129,7 @@ export default ({ pageContext, data, location }) => {
                       <li className="is-active">
                         <a
                           className="u-url"
-                          href={"https://www.abhith.net" + article.slug}
+                          href={"https://www.aiartiste.com" + article.slug}
                         >
                           {article.title}
                         </a>
@@ -158,7 +158,7 @@ export default ({ pageContext, data, location }) => {
                 </MDXRenderer>
                 {authors && authors.length === 1 ? (
                   <div className="container mt-5 mb-3">
-                    <div className="media">
+                    {/* <div className="media">
                       <figure className="media-left">
                         <p className="image is-128x128">
                           <RoundedImage
@@ -187,7 +187,7 @@ export default ({ pageContext, data, location }) => {
                             </span>
                             <br />
                             {authors[0].bio}
-                            <br />
+                            <br /><br />
                             <Link
                               to="/donate/"
                               className="button k-button k-primary raised has-gradient rounded"
@@ -200,11 +200,11 @@ export default ({ pageContext, data, location }) => {
                           </p>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 ) : null}
-                <LiveEdit code={askForCommentsCode} noInline={false} />
-                <div id="typo" className="ar-typo">
+                {/* <LiveEdit code={askForCommentsCode} noInline={false} /> */}
+                {/* <div id="typo" className="ar-typo">
                   <p className="has-text-grey">
                     This page is{" "}
                     <strong className="has-text-grey">open source</strong>.
@@ -218,9 +218,9 @@ export default ({ pageContext, data, location }) => {
                       Improve this page on GitHub
                     </OutboundLink>
                   </p>
-                </div>
-                <Webmentions {...allWebMentionEntry} />
-                <Utterances repo={`Abhith/abhith.net`} />
+                </div> */}
+                {/* <Webmentions {...allWebMentionEntry} />
+                <Utterances repo={`Abhith/abhith.net`} /> */}
               </div>
               <aside className="ar-side">
                 <div className="sticky">
@@ -234,11 +234,11 @@ export default ({ pageContext, data, location }) => {
                     </div>
                     <div className="buttons is-centered">
                       <GitHubButton
-                        href="https://github.com/Abhith/abhith.net"
+                        href="https://github.com/jasonshere"
                         data-icon="octicon-star"
                         data-size="large"
                         data-show-count="true"
-                        aria-label="Star Abhith/abhith.net on GitHub"
+                        aria-label="Star jasonshere on GitHub"
                       >
                         Star
                       </GitHubButton>

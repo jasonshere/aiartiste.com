@@ -50,24 +50,24 @@ const Navbar = class extends React.Component {
     return (
       <nav className="navbar is-spaced" id="ar-navbar">
         <div className="navbar-brand">
-          <Link to="/" className="navbar-item">
+          {/* <Link to="/" className="navbar-item">
             <figure className="image is-vertical-center">
               <Img
                 fluid={this.props.logo.childImageSharp.fluid}
                 className="nav-logo"
               />
             </figure>
-          </Link>
+          </Link> */}
           <OutboundLink
             className="navbar-item is-hidden-desktop"
-            href="https://github.com/Abhith/abhith.net"
+            href="https://github.com/jasonshere"
             target="_blank"
           >
             <span className="icon">
               <GoMarkGithub size={24} />
             </span>
           </OutboundLink>
-          <OutboundLink
+          {/* <OutboundLink
             className="navbar-item is-hidden-desktop"
             href="https://twitter.com/AbhithRajan"
             target="_blank"
@@ -75,7 +75,7 @@ const Navbar = class extends React.Component {
             <span className="icon" style={{ color: "#55acee" }}>
               <FaTwitter size={24} />
             </span>
-          </OutboundLink>
+          </OutboundLink> */}
           <div
             role="button"
             className={`navbar-burger burger ${this.state.hamburgerMenuClass}`}
@@ -116,7 +116,7 @@ const Navbar = class extends React.Component {
             </NavbarItem>
           </div>
           <div className="navbar-end">
-            <div className="navbar-item">
+            {/* <div className="navbar-item">
               <div className="field is-grouped">
                 <OutboundLink
                   className="is-bold button k-button k-secondary raised has-gradient"
@@ -129,17 +129,17 @@ const Navbar = class extends React.Component {
                   </span>
                 </OutboundLink>
               </div>
-            </div>
+            </div> */}
             <OutboundLink
               className="navbar-item is-hidden-desktop-only"
-              href="https://github.com/Abhith/abhith.net"
+              href="https://github.com/jasonshere"
               target="_blank"
             >
               <span className="icon">
                 <GoMarkGithub size={24} />
               </span>
             </OutboundLink>
-            <OutboundLink
+            {/* <OutboundLink
               className="navbar-item is-hidden-desktop-only"
               href="https://twitter.com/AbhithRajan"
               target="_blank"
@@ -147,8 +147,8 @@ const Navbar = class extends React.Component {
               <span className="icon" style={{ color: "#55acee" }}>
                 <FaTwitter size={24} />
               </span>
-            </OutboundLink>
-            <div className="navbar-item">
+            </OutboundLink> */}
+            {/* <div className="navbar-item">
               <div className="field is-grouped">
                 <Link
                   to="/donate/"
@@ -159,7 +159,7 @@ const Navbar = class extends React.Component {
                   </span>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>

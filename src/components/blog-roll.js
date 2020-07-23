@@ -24,10 +24,10 @@ const BlogRoll = props => {
                 <div className="post-meta">
                   <div className="author-block">
                     <div className="image is-32x32">
-                      <img src="/img/abhith.jpg" alt="abhith rajan" />
+                      <img src="/img/jason.jpg" alt="Jason Li" />
                     </div>
                     <div className="author-name">
-                      <span>by Abhith Rajan</span>
+                      <span>by Jason Li</span>
                       <span>
                         <small>in</small> {post.tags.join()}
                       </span>

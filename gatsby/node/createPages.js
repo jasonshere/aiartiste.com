@@ -112,7 +112,7 @@ module.exports = async ({ graphql, actions, reporter }) => {
         relatedTools,
         next: articles[index - 1],
         previous: articles[index + 1],
-        permalink: `https://www.abhith.net${article.slug}`,
+        permalink: `https://www.aiartiste.com${article.slug}`,
       },
     });
   });
@@ -324,7 +324,7 @@ module.exports = async ({ graphql, actions, reporter }) => {
             topic,
             stories: relatedStories,
             topics,
-            permalink: `https://www.abhith.net${topicStoriesPath}`,
+            permalink: `https://www.aiartiste.com${topicStoriesPath}`,
           },
         });
       }
@@ -341,7 +341,7 @@ module.exports = async ({ graphql, actions, reporter }) => {
             topic,
             videos: relatedVideos,
             topics,
-            permalink: `https://www.abhith.net${topicVideosPath}`,
+            permalink: `https://www.aiartiste.com${topicVideosPath}`,
           },
         });
       }
@@ -358,7 +358,7 @@ module.exports = async ({ graphql, actions, reporter }) => {
             topic,
             tools: relatedTools,
             topics,
-            permalink: `https://www.abhith.net${topicToolsPath}`,
+            permalink: `https://www.aiartiste.com${topicToolsPath}`,
           },
         });
       }

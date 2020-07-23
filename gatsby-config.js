@@ -1,6 +1,6 @@
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = "https://www.abhith.net",
+  URL: NETLIFY_SITE_URL = "https://www.aiartiste.com",
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env;
@@ -18,22 +18,22 @@ const templates = {
 
 module.exports = {
   siteMetadata: {
-    title: "Abhith Rajan",
+    title: "Jason Li",
     description:
-      "An aspiring software engineer with more than 7 years of experience.",
+      "An Ph.D. Candidate in Computer Science at RMIT University.",
     siteUrl,
     author: {
-      name: "Abhith Rajan",
+      name: "Jason Li",
       minibio: `
-        Abhith Rajan is an aspiring software engineer with more than 6 years of experience and proven successful track record of delivering technology-based products and services.
+        Jason is committed to the research of Recommender System algorithms.
       `,
-      url: `https://twitter.com/abhithrajan`,
-      image: `https://www.abhith.net/img/abhith.jpg`,
+      url: `https://twitter.com/JasonLi45756873`,
+      image: `https://www.aiartiste.com/img/jason.jpg`,
     },
-    image: `https://www.abhith.net/img/abhith.jpg`,
+    image: `https://www.aiartiste.com/img/jason.jpg`,
     social: {
-      twitter: "@AbhithRajan",
-      fbAppID: "",
+      twitter: "@Jason",
+      fbAppID: "100001472784145",
     },
   },
   mapping: {
@@ -183,19 +183,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-104139048-1",
+        trackingId: "UA-134618486-1",
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Abhith Rajan`,
-        short_name: `Abhith`,
+        name: `Jason Li`,
+        short_name: `Jason`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/img/android-chrome-144x144.png`,
+        icon: `static/img/icon.png`,
       },
     },
     {
@@ -238,14 +238,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-webmention`,
       options: {
-        username: "www.abhith.net",
+        username: "www.aiartiste.com",
         identity: {
-          github: "Abhith",
-          twitter: "AbhithRajan",
+          github: "jasonshere",
+          twitter: "JasonLi45756873",
         },
         mentions: true,
         pingbacks: false,
-        domain: "www.abhith.net",
+        domain: "www.aiartiste.com",
         fetchLimit: 10000,
         token: process.env.WEBMENTIONS_TOKEN,
       },

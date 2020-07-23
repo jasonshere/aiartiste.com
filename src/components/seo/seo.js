@@ -62,7 +62,7 @@ function SEO({
     ? `${site.siteMetadata.siteUrl}${slug}`
     : site.siteMetadata.siteUrl;
 
-  const defaultTitle = `Abhith Rajan - Coder, Blogger, Biker, Full Stack Developer`;
+  const defaultTitle = `Jason Li - AI Researcher at RMIT`;
 
   title = title ? `${title} | ${site.siteMetadata.title}` : defaultTitle;
 
@@ -159,19 +159,19 @@ function SEO({
           },
           {
             rel: "me",
-            href: "https://twitter.com/abhithrajan",
+            href: "https://twitter.com/JasonLi45756873",
           },
           {
             rel: "me",
-            href: "https://github.com/Abhith",
+            href: "https://github.com/jasonshere",
           },
           {
             rel: "webmention",
-            href: "https://webmention.io/www.abhith.net/webmention",
+            href: "https://webmention.io/www.aiartiste.com/webmention",
           },
           {
             rel: "pingback",
-            href: "https://webmention.io/www.abhith.net/xmlrpc",
+            href: "https://webmention.io/www.aiartiste.com/xmlrpc",
           },
         ]}
       />
