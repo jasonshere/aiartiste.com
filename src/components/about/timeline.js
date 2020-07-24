@@ -26,7 +26,7 @@ export default class Timeline extends Component {
                 <p className="heading has-text-info has-text-weight-bold">
                 February 2020
                 </p>
-                <p>Ph.D. Candidate at RMIT - Recommender System Algorithms</p>
+                <p>PhD Candidate at RMIT - Recommender System Algorithms</p>
               </div>
             </div>
             <header className="timeline-header">

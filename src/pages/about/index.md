@@ -5,7 +5,7 @@ title: About
 description: Future wiki page about Abhith Rajan.
 ---
 
-Hi, I'm Jason, currently an Ph.D. Candidate in Computer Science at [RMIT University](https://www.rmit.edu.au). 
+Hi, I'm Jason, currently a PhD Candidate in Computer Science at [RMIT University](https://www.rmit.edu.au). 
 
 I'm committed to the research of [Recommender System](https://en.wikipedia.org/wiki/Recommender_system#:~:text=A%20recommender%20system%2C%20or%20a,would%20give%20to%20an%20item.) algorithms. 
 

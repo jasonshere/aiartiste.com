@@ -20,7 +20,7 @@ module.exports = {
   siteMetadata: {
     title: "Jason Li",
     description:
-      "An Ph.D. Candidate in Computer Science at RMIT University.",
+      "A PhD Candidate in Computer Science at RMIT University.",
     siteUrl,
     author: {
       name: "Jason Li",
