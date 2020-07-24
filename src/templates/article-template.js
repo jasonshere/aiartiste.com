@@ -158,7 +158,8 @@ export default ({ pageContext, data, location }) => {
                 </MDXRenderer>
                 {authors && authors.length === 1 ? (
                   <div className="container mt-5 mb-3">
-                    {/* <div className="media">
+                    <hr />
+                    <div className="media">
                       <figure className="media-left">
                         <p className="image is-128x128">
                           <RoundedImage
@@ -185,9 +186,9 @@ export default ({ pageContext, data, location }) => {
                                 Follow {authors[0].twitter}
                               </a>
                             </span>
-                            <br />
-                            {authors[0].bio}
-                            <br /><br />
+                            <p style={{"height": "50px", "line-height": "50px"}}>
+                              {authors[0].bio}
+                            </p>
                             <Link
                               to="/donate/"
                               className="button k-button k-primary raised has-gradient rounded"
@@ -200,11 +201,12 @@ export default ({ pageContext, data, location }) => {
                           </p>
                         </div>
                       </div>
-                    </div> */}
+                    </div>
                   </div>
                 ) : null}
+                <hr />
                 {/* <LiveEdit code={askForCommentsCode} noInline={false} /> */}
-                {/* <div id="typo" className="ar-typo">
+                <div id="typo" className="ar-typo">
                   <p className="has-text-grey">
                     This page is{" "}
                     <strong className="has-text-grey">open source</strong>.
@@ -218,8 +220,8 @@ export default ({ pageContext, data, location }) => {
                       Improve this page on GitHub
                     </OutboundLink>
                   </p>
-                </div> */}
-                {/* <Webmentions {...allWebMentionEntry} /> */}
+                </div>
+                <Webmentions {...allWebMentionEntry} />
                 <Utterances repo={`jasonshere/aiartiste.com`} />
               </div>
               <aside className="ar-side">

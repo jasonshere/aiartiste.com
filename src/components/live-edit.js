@@ -86,6 +86,7 @@ const LiveEdit = ({ noInline, code }) => (
       <StyledPreview />
     </LiveWrapper>
     <StyledError />
+    <hr />
   </LiveProvider>
 );
 
