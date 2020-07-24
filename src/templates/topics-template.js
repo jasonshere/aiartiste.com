@@ -14,12 +14,12 @@ function TopicsPage({ pageContext }) {
     <Layout>
       <SEO
         title="Topics"
-        description={`Summary of all the ${topics.length} topics in abhith.net`}
+        description={`Summary of all the ${topics.length} topics in aiartiste.com`}
         slug="/topics"
       />
       <PageHero
         title={`All Topics`}
-        subtitle={`Summary of all the ${topics.length} topics in abhith.net`}
+        subtitle={`Summary of all the ${topics.length} topics in aiartiste.com`}
         className={`position-relative page-hero`}
       />
       <section className="section">

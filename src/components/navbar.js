@@ -50,14 +50,14 @@ const Navbar = class extends React.Component {
     return (
       <nav className="navbar is-spaced" id="ar-navbar">
         <div className="navbar-brand">
-          {/* <Link to="/" className="navbar-item">
+          <Link to="/" className="navbar-item">
             <figure className="image is-vertical-center">
               <Img
                 fluid={this.props.logo.childImageSharp.fluid}
                 className="nav-logo"
               />
             </figure>
-          </Link> */}
+          </Link>
           <OutboundLink
             className="navbar-item is-hidden-desktop"
             href="https://github.com/jasonshere"
@@ -171,7 +171,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        logo: file(relativePath: { eq: "abhith-logo-lg.png" }) {
+        logo: file(relativePath: { eq: "logo-bar.png" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid_withWebp

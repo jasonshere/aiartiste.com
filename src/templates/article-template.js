@@ -33,7 +33,7 @@ export default ({ pageContext, data, location }) => {
     next,
     previous,
   } = pageContext;
-  const githubURL = `https://github.com/Abhith/abhith.net/blob/master/content${article.slug.substring(
+  const githubURL = `https://github.com/jasonshere/aiartiste.com/blob/master/content${article.slug.substring(
     0,
     article.slug.length - 1
   )}.mdx`;
@@ -219,8 +219,8 @@ export default ({ pageContext, data, location }) => {
                     </OutboundLink>
                   </p>
                 </div> */}
-                {/* <Webmentions {...allWebMentionEntry} />
-                <Utterances repo={`Abhith/abhith.net`} /> */}
+                {/* <Webmentions {...allWebMentionEntry} /> */}
+                <Utterances repo={`jasonshere/aiartiste.com`} />
               </div>
               <aside className="ar-side">
                 <div className="sticky">

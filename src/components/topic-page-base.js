@@ -138,7 +138,7 @@ const TopicPageBase = ({
               </div>
               {children}
               <Webmentions {...allWebMentionEntry} />
-              <Utterances repo={`Abhith/abhith.net`} />
+              <Utterances repo={`jasonshere/aiartiste.com`} />
             </div>
           </div>
         </div>

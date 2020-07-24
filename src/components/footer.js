@@ -23,13 +23,13 @@ function Footer() {
           <div className="column is-5 is-4-widescreen">
             <div className="summary">
               <Link to="/" className="brand">
-                {/* <div className="brand-icon">
+                <div className="brand-icon">
                   <img
                     alt="Jason Li"
                     role="presentation"
                     src="/img/site/brand/icon.png"
                   />
-                </div> */}
+                </div>
                 <div className="brand-content">
                   <div className="brand-title">Jason Li </div>
                   <div className="brand-subtitle">AI Researcher</div>

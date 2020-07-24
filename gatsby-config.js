@@ -195,7 +195,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/img/icon.png`,
+        icon: `static/img/site/brand/icon-64x64.png`,
       },
     },
     {
