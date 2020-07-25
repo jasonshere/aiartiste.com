@@ -106,7 +106,7 @@ export default function Hero() {
                             width: 40,
                           },
                           {
-                            src: "/img/redis.svg",
+                            src: "/img/redis.png",
                             height: 20,
                             width: 20,
                           },
