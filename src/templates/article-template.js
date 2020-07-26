@@ -5,7 +5,7 @@ import { OutboundLink } from "gatsby-plugin-google-analytics";
 import GitHubButton from "react-github-btn";
 
 import Layout from "@components/layout";
-import LiveEdit from "@components/live-edit";
+// import LiveEdit from "@components/live-edit";
 import MDXRenderer from "@components/mdx";
 import SEO from "@components/seo/seo";
 import TableOfContents from "@components/table-of-contents";
@@ -20,6 +20,7 @@ import RelatedStories from "../sections/article/article-related-stories";
 import RelatedTools from "../sections/article/article-related-tools";
 import RelatedVideos from "../sections/article/article-related-videos";
 import ArticleShare from "../sections/article/article-share";
+// import "katex/dist/katex.min.css"
 
 export default ({ pageContext, data, location }) => {
   const { allWebMentionEntry } = data;

@@ -117,8 +117,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
+        // gatsbyRemarkPlugins: [],
+        remarkPlugins: [require(`remark-math`), require(`remark-html-katex`)],
+        rehypePlugins: [require(`rehype-katex`)],
         defaultLayouts: { default: templates.page },
         gatsbyRemarkPlugins: [
+          `gatsby-remark-katex`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -126,7 +130,7 @@ module.exports = {
               quality: 90,
               withWebp: true,
               maxWidth: 1920,
-              showCaptions: true,
+              showCaptions: true
             },
           },
           {

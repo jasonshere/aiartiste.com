@@ -25,7 +25,7 @@ export default React.memo(
         legalName: "Jie Li",
         logo: {
           "@type": "ImageObject",
-          url: "https://wwww.aiartiste.com/img/android-chrome-144x144.png",
+          url: "https://www.aiartiste.com/img/logo-lg.png",
           width: 144,
           height: 144
         },
@@ -34,7 +34,7 @@ export default React.memo(
           name: "Jason Li",
           image: {
             "@type": "ImageObject",
-            url: "https://wwww.aiartiste.com/img/abhith.jpg",
+            url: "https://wwww.aiartiste.com/img/jason.jpg",
             width: 300,
             height: 300
           }
