@@ -13,5 +13,10 @@
         "statusBar.border": "#bf3dd3",
         "titleBar.border": "#bf3dd3"
     },
-    "peacock.color": "#bf3dd3"
+    "peacock.color": "#bf3dd3",
+    "vsintellicode.modelDownloadPath": "",
+    "files.associations": {
+        "*.md": "mdx"
+    },
+    "preview.previewTheme": "Dark",
 }

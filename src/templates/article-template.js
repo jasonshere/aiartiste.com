@@ -20,7 +20,6 @@ import RelatedStories from "../sections/article/article-related-stories";
 import RelatedTools from "../sections/article/article-related-tools";
 import RelatedVideos from "../sections/article/article-related-videos";
 import ArticleShare from "../sections/article/article-share";
-// import "katex/dist/katex.min.css"
 
 export default ({ pageContext, data, location }) => {
   const { allWebMentionEntry } = data;

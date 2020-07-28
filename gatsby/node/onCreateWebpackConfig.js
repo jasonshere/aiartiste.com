@@ -1,6 +1,18 @@
 const path = require("path");
 
-module.exports = ({ actions }) => {
+module.exports = ({ stage, loaders, actions }) => {
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /plotly.js/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    });
+  };
   actions.setWebpackConfig({
     resolve: {
       alias: {
