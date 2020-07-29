@@ -186,7 +186,7 @@ export default ({ pageContext, data, location }) => {
                                 Follow {authors[0].twitter}
                               </a>
                             </span>
-                            <p style={{"height": "50px", "line-height": "50px"}}>
+                            <p style={{"height": "50px", "lineHeight": "50px"}}>
                               {authors[0].bio}
                             </p>
                             <Link
