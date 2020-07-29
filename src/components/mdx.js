@@ -4,6 +4,7 @@ import { Table, TableCell, TableHeadCell, TableHead } from "@components/tables";
 import { css } from "@emotion/core";
 import styled from "@emotion/styled";
 import { MDXProvider } from "@mdx-js/react";
+import { LazyPlot } from './plotly'
 import mediaqueries from "@styles/media";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import React from "react";
@@ -16,6 +17,7 @@ const components = {
   thead: TableHead,
   th: TableHeadCell,
   td: TableCell,
+  LazyPlot
 };
 
 function MDX({ content, children, ...props }) {

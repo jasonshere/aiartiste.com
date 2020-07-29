@@ -84,6 +84,7 @@
     "remark-math": "^2.0.1",
     "remark-parse": "^3.0.1",
     "smooth-scroll": "^16.1.3",
+    "styled-components": "^5.1.1",
     "theme-ui": "^0.2.52",
     "typeface-lora": "^0.0.72",
     "typescript": "^3.9.7"
