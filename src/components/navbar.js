@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { FaCoffee, FaTwitter, FaShieldAlt } from "react-icons/fa";
+// import { FaCoffee, FaTwitter, FaShieldAlt } from "react-icons/fa";
 import {
   FcContacts,
   FcHome,
