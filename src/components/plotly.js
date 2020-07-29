@@ -1,6 +1,6 @@
 import React from 'react'
 import Loadable from 'react-loadable'
-import { FoldingSpinner } from './Spinners'
+import { FoldingSpinner } from './spinners'
 // import { useDarkMode } from 'hooks'
 
 const Plotly = Loadable({
