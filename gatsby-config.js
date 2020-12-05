@@ -50,6 +50,8 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
+          'gatsby-remark-markmap',
+          'gatsby-remark-prismjs',
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -131,6 +133,13 @@ module.exports = {
               withWebp: true,
               maxWidth: 1920,
               showCaptions: true
+            },
+          },
+          {
+            resolve: 'gatsby-remark-markmap',
+            options: {
+              markmap: {/* markmap options */},
+              plugins: ['mathJax', 'prism'],
             },
           },
           {
